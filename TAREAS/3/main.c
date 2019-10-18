@@ -2,17 +2,17 @@
 #include <stdlib.h>
 
 int main(int argc, char *argu[]){
-	float numero,operador,suma,resta,multip,division;
-	numero=atof(argu[1]);
-	operador=atof(argu[2]);
-	suma=numero+operador;
-    printf("\n La suma es: %.2f\n",suma);
-    resta=numero-operador;
-	printf("\n La resta es: %.2f\n", resta);
-	division=numero/operador;
-	printf("\n La division es: %.2f\n", division);
-	multip=numero*operador;
-	printf("\n La multiplicacion es: %.2f\n",multip);
+	float n1,n2,s,r,m,d;
+	n1=atof(argu[1]);
+	n2=atof(argu[2]);
+	s=n1+n2;
+    printf("suma:\n%.2f\n",s);
+    r=n1-n2;
+	printf("resta:\n%.2f\n", r);
+	d=n1/n2;
+	printf("division:\n%.2f\n", d);
+	m=n1*n2;
+	printf("producto:\n%.2f\n",m);
 
 	return 0;
 
