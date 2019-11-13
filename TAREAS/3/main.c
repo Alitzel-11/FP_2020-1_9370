@@ -16,6 +16,7 @@ printf("%.2f\n",multip);//Imprimí el resultado de la multiplicación
 	printf("%.2f\n", division);//Imprimí el resultado de la división
 	
 	
+
 	
 return 0;//Cerramos el programa
 }
