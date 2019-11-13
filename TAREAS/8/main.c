@@ -12,5 +12,6 @@ if(n1==1){
     resultado=(n2-32)/1.8;
      printf("%.2f",resultado);
 }
+    
 return 0;
 }
