@@ -11,5 +11,6 @@ int main(int argc, char *argu[]){
 	else {
 		printf("0\n");
 	}
+	
 	return 0;
 }
