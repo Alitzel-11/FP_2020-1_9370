@@ -12,5 +12,6 @@ int main(int argc,char*argu[]){
 		resultado=resultado/arguf[i];
 		printf("%.2f\n",resultado);
 	}
+	
 	return 0;
 }
